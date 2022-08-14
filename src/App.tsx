@@ -1,5 +1,8 @@
 import { Switch, Route } from '@modern-js/runtime/router';
 import routes from '@/routes/base';
+import 'tailwindcss/base.css';
+import 'tailwindcss/components.css';
+import 'tailwindcss/utilities.css';
 
 import './App.css';
 
