@@ -16,7 +16,7 @@ type ReturnResponse<T> = ReturnSuccessResponse<T> | ReturnErrorResponse;
 const axios = Axios.create({
   timeout: 7000,
   responseType: 'json',
-  withCredentials: true,
+  withCredentials: false,
   headers: {
     'Content-Type': 'application/json;charset=UTF-8',
   },

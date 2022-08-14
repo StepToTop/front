@@ -5,4 +5,9 @@ export default defineConfig({
   server: {
     port: 8888,
   },
+  tools: {
+    tailwindcss: {
+      important: true,
+    },
+  },
 });
